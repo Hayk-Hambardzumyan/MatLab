@@ -1,0 +1,104 @@
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+WARNING: you are using a function (max, min, abs, sign) or an operator (<, >, <=, >=, ==, !=) which is unsuitable for a stochastic context; see the reference manual, section about "Expressions", for more details.
+Found 95 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+Processing outputs ...
+done
+Preprocessing completed.
+
+Computing steady state...
+Computing initial guess from histogram...
+Compute steady state from parametric family...
+... Done!  Elapsed time: 51.48 seconds 
+
+
+MODEL SUMMARY
+
+  Number of variables:         95
+  Number of stochastic shocks: 1
+  Number of state variables:   29
+  Number of jumpers:           54
+  Number of static variables:  12
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables            aggregateTFPShock
+aggregateTFPShock             1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                                    aggregateTFP       logAggregateOutput  logAggregateConsumption   logAggregateInvestment                  logWage                        r                       pi                        i                   mHat_1                   mHat_2
+Constant                                       0                -0.186330                -0.710290                -1.083236                 0.063739                        0                        0                        0                        0                        0
+moment_1_1(-1)                                 0                 0.015067                -0.009145                 0.050222                 0.015086                -0.010169                 0.016410                        0                        0                        0
+moment_2_1(-1)                                 0                 0.073560                -0.044649                 0.245201                 0.073655                -0.055613                 0.087752                        0                        0                        0
+moment_1_2(-1)                                 0                        0                        0                        0                        0                -0.000476                 0.000609                        0                        0                        0
+moment_2_2(-1)                                 0                        0                        0                        0                        0                -0.000588                 0.000752                        0                        0                        0
+moment_1_3(-1)                                 0                        0                        0                        0                        0                 0.000077                -0.000098                        0                        0                        0
+moment_2_3(-1)                                 0                        0                        0                        0                        0                 0.000140                -0.000179                        0                        0                        0
+mHat_1(-1)                                     0                        0                        0                        0                        0                 0.056366                -0.072091                        0                 0.500000                 0.102410
+mHat_2(-1)                                     0                        0                        0                        0                        0                 0.169664                -0.216997                        0                        0                        0
+ma1(-1)                                        0                        0                        0                        0                        0                 0.033989                -0.043471                        0                        0                        0
+ma2(-1)                                        0                        0                        0                        0                        0                 0.035233                -0.045062                        0                        0                        0
+ma3(-1)                                        0                        0                        0                        0                        0                 0.034101                -0.043615                        0                        0                        0
+ma4(-1)                                        0                        0                        0                        0                        0                 0.029888                -0.038226                        0                        0                        0
+ma5(-1)                                        0                        0                        0                        0                        0                 0.021894                -0.028001                        0                        0                        0
+S(-1)                                          0                -0.850000                -1.435397                        0                        0                        0                        0                        0                        0                        0
+ma6(-1)                                        0                        0                        0                        0                        0                 0.009484                -0.012129                        0                        0                        0
+ma7(-1)                                        0                        0                        0                        0                        0                -0.007842                 0.010030                        0                        0                        0
+ma8(-1)                                        0                        0                        0                        0                        0                -0.030365                 0.038836                        0                        0                        0
+ma9(-1)                                        0                        0                        0                        0                        0                -0.058051                 0.074246                        0                        0                        0
+ma10(-1)                                       0                        0                        0                        0                        0                -0.090454                 0.115688                        0                        0                        0
+ma11(-1)                                       0                        0                        0                        0                        0                -0.126608                 0.161929                        0                        0                        0
+ma12(-1)                                       0                        0                        0                        0                        0                -0.164933                 0.210945                        0                        0                        0
+ma13(-1)                                       0                        0                        0                        0                        0                -0.203160                 0.259837                        0                        0                        0
+ma14(-1)                                       0                        0                        0                        0                        0                -0.238265                 0.304735                        0                        0                        0
+ma15(-1)                                       0                        0                        0                        0                        0                -0.266439                 0.340769                        0                        0                        0
+ma16(-1)                                       0                        0                        0                        0                        0                -0.283207                 0.362215                        0                        0                        0
+ma17(-1)                                       0                        0                        0                        0                        0                -0.283263                 0.362287                        0                        0                        0
+ma18(-1)                                       0                        0                        0                        0                        0                -0.261240                 0.334121                        0                        0                        0
+ma19(-1)                                       0                        0                        0                        0                        0                 0.788622                 0.270348                 1.000000                        0                        0
+aggregateTFPShock                              0                        0                        0                        0                        0                -0.031038                 0.039696                        0                        0                        0
+
+
+THEORETICAL MOMENTS (HP filter, lambda = 100)
+VARIABLE                        MEAN  STD. DEV.   VARIANCE
+aggregateTFP                  0.0000     0.0000     0.0000
+logAggregateOutput           -0.1863     0.2689     0.0723
+logAggregateConsumption      -0.7103     0.1632     0.0266
+logAggregateInvestment       -1.0832     0.8963     0.8034
+logWage                       0.0637     0.2692     0.0725
+r                             0.0000     0.9000     0.8101
+pi                            0.0000     0.1012     0.0102
+i                             0.0000     0.9262     0.8579
+mHat_1                        0.0000     0.0000     0.0000
+mHat_2                        0.0000     0.0000     0.0000
+
+
+
+MATRIX OF CORRELATIONS (HP filter, lambda = 100)
+Variables                       logAggregateOutput  logAggregateConsumption   logAggregateInvestment                  logWage                        r                       pi                        i
+logAggregateOutput                          1.0000                  -1.0000                   1.0000                   1.0000                  -0.0777                  -0.1962                  -0.1435
+logAggregateConsumption                    -1.0000                   1.0000                  -1.0000                  -1.0000                   0.0777                   0.1962                   0.1435
+logAggregateInvestment                      1.0000                  -1.0000                   1.0000                   1.0000                  -0.0777                  -0.1962                  -0.1435
+logWage                                     1.0000                  -1.0000                   1.0000                   1.0000                  -0.0777                  -0.1962                  -0.1435
+r                                          -0.0777                   0.0777                  -0.0777                  -0.0777                   1.0000                   0.2187                   0.9944
+pi                                         -0.1962                   0.1962                  -0.1962                  -0.1962                   0.2187                   1.0000                   0.3080
+i                                          -0.1435                   0.1435                  -0.1435                  -0.1435                   0.9944                   0.3080                   1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION (HP filter, lambda = 100)
+Order                           1       2       3       4       5
+logAggregateOutput         0.6702  0.3218  0.0223 -0.1978 -0.3316
+logAggregateConsumption    0.6702  0.3218  0.0223 -0.1978 -0.3316
+logAggregateInvestment     0.6702  0.3218  0.0223 -0.1978 -0.3316
+logWage                    0.6702  0.3218  0.0223 -0.1978 -0.3316
+r                         -0.1839 -0.1383 -0.0987 -0.0656 -0.0392
+pi                         0.8147  0.5349  0.2278 -0.0527 -0.2712
+i                         -0.1545 -0.1310 -0.1026 -0.0743 -0.0490
+Total computing time : 0h01m08s
+Note: 1 warning(s) encountered in the preprocessor
